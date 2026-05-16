@@ -54,7 +54,7 @@ p{
 }
 
 .curve-in{
-    height:14vh;
+    height:70px;
     width:100%;
     background: linear-gradient(to right,black,rgb(255,0,204),red,rgb(255,0,204));
     position:relative;
