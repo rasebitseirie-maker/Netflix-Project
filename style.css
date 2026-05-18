@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background: black;
+    overflow-x: hidden;
 }
 #logo{
     width: 150px;
@@ -110,7 +111,8 @@ div span{
 .card2,
 .card3,
 .card4,
-.card5{
+.card5
+{
   width: 180px;
   height: 250px;
   background-size: cover;
@@ -119,7 +121,20 @@ div span{
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+   flex: 0 0 180px;
 }
+
+.trending-row{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.trending-row::-webkit-scrollbar{
+    display: none;
+}
+
 .card1{
   background-image: url("assets/pic1.webp");
 }
@@ -139,6 +154,8 @@ div span{
 .card5{
   background-image: url("assets/pic5.webp");
 }
+
+
 span{
   font-size: 80px;
   font-weight: bold;
@@ -150,6 +167,8 @@ span{
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
 }
 
 #more-reasons{
