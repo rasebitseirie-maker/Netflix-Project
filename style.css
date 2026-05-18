@@ -171,6 +171,14 @@ span{
     padding-bottom: 20px;
 }
 
+video{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 #more-reasons{
     width: 48%;
     height: 230px;
@@ -208,8 +216,11 @@ span{
 
 #faq h3{
     color: white;
-    font-size: 32px;
     margin-bottom: 20px;
+    font-family: unset;
+        font-size: 1.5rem;
+        font-weight:bold;
+        
 }
 
 #faq details{
@@ -223,6 +234,9 @@ span{
 #faq summary{
     list-style: none;
     cursor: pointer;
+     font-size: 32px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #faq summary::after{
@@ -245,6 +259,7 @@ justify-content: center;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    width:350px;
 }
 .CTA input{
     background-color: black;
