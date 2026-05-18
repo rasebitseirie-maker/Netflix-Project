@@ -236,13 +236,34 @@ display:flex;
 flex-direction: column;
 justify-content: center;
 }
+.CTA button{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.CTA input{
+    background-color: black;
+    border: 1px solid gray;
+    padding: 18px;
+    width: 350px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
 
 #links{
-  color:white;
-  display:flex;
+ display:flex;
   justify-content: space-between;
   padding:0 10vw;
   width:100%;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.125rem;
 }
 ul{
   list-style: none;
