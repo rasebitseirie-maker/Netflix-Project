@@ -15,6 +15,8 @@ padding:4px 16px;
 border-radius: 3px;
 }
 
+
+
 header {
 color:white;
 
@@ -35,7 +37,13 @@ header{
     justify-content: space-between;
     align-items: center;
      width: 100%;
+    box-sizing: border-box; 
 }
+
+.top-bar button{
+    margin-left: auto;
+}
+
 header h2{
     margin-top: 150px;
 }
@@ -73,8 +81,36 @@ p{
     border-top-right-radius:45%;
 }
 
-.CTA{
-    width:unset
+#CTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#CTA input{
+    width: 360px;
+    height: 50px;
+    background: rgba(22, 22, 22, 0.7);
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+
+
+#CTA button{
+    height: 60px;
+    background: rgb(229, 8, 20);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
 }
 h3{
     color: white;
